@@ -27,11 +27,11 @@ Parameters:
 
 To create an interactive dashboard that:
 - Analyzes batting, bowling, and all-rounder performances.
-- Selects the best 11 players based on their roles.
-- Suggests a strategic batting order (Power Hitters ➡️ Middle Order ➡️ Lower Order ➡️ All-rounders ➡️ Specialist Bowlers).
+- Select the best 11 players based on their roles.
+- Form a strategic batting order (Power Hitters ➡️ Middle Order ➡️ Lower Order ➡️ All-rounders ➡️ Specialist Bowlers).
 
 ### Features:
-- Performance analysis of players across all IPL matches.
+- Performance analysis of players across all IPL matches in 2022.
 - Player rankings by batting strike rate, economy rate, average, and overall impact.
 - Visuals showcasing team and player insights, enabling informed decision-making.
 
@@ -42,6 +42,7 @@ The data is extracted from [ESPNcricinfo](https://www.espncricinfo.com/) and inc
 1. **`dim_match_summary.csv`**: Match details.
 2. **`dim_players.csv`**: Player profiles and attributes.
 3. **`fact_bating_summary.csv`**: Batting performance statistics.
+4. **`fact_bowling_summary.csv`**: Bbowling performance statistics.
 
 ---
 
@@ -120,23 +121,6 @@ All measures stored in the folder ‘Key Measures’ under their respective sub-
 **digital design provided ‘mockup.txt.’**
 ![dashboard mockup](https://github.com/user-attachments/assets/4f094c0b-113a-460f-867f-4f89ec55c055)
 
-
-1. **Player Rankings**:
-   - Power Hitters: Top performers in terms of strike rate.
-   - All-rounders: Balance between batting and bowling impact.
-   - Bowlers: Economy rate and wickets taken.
-
-2. **Team Composition Suggestions**:
-   - Strategic batting order.
-   - Specialist fast bowlers for death overs.
-
-3. **Performance Trends**:
-   - Year-wise and team-wise breakdowns.
-   - Insights into form and consistency.
-
-4. **Custom Filters**:
-   - Dynamic selection of seasons, teams, and players.
-
 ---
 
 ## 🛠️ **Technical Details**
@@ -152,7 +136,7 @@ All measures stored in the folder ‘Key Measures’ under their respective sub-
    Clone or download the repository to your local system.
 
    ```bash
-   git clone https://github.com/YourUsername/IPL-T20-Dashboard.git
+   git clone https://github.com/DjangoMustang/IPL-T20-Dashboard.git
    ```
 
 2. **Setup Instructions**:
@@ -191,9 +175,13 @@ This project is licensed under the MIT License.
 
 ## 📧 **Contact**
 For queries or feedback, feel free to contact:
-- **Your Name**
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **GitHub**: [YourUsername](https://github.com/YourUsername)
+- **Siddhi Shrivastava**
+- **Email**: [siddhi.atwork@gmail.com](mailto:siddhi.atworkl@gmail.com)
+- **GitHub**: [DjangoMustang](https://github.com/DjangoMustang)
+- **Instagram**: ([thats_siddhi](https://www.instagram.com/thats_siddhi))
 
 ---
 
+## **Creadits**
+Problem statement is defined by Codebasics Resume Project Challenge. I built the dashboard from scratch but continued with their dashboard mockup design, it's the best.
+Huge thanks to the whole team of Codebasics!!!
